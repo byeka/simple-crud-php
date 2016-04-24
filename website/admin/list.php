@@ -9,7 +9,6 @@
 		<td><b>Username</b></td>
 		<td colspan="2"><b>Aksi</b></td>
 	</tr>
-	<tr>
 	<?php
 	$nomor = 1;
 	$admin = mysql_query("select * from admin order by nama_admin ASC");
